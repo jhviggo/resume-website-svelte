@@ -1,2 +1,9 @@
-<h1>Welcome to Viggo.work</h1>
-<p>Initial template setup</p>
+<script>
+  import FrontPage from '../components/frontPage.svelte';
+</script>
+
+<svelte:head>
+  <meta name="description" content="Viggo Petersen portfolio." />
+</svelte:head>
+
+<FrontPage />

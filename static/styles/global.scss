@@ -1,0 +1,28 @@
+body {
+	background-color: $background;
+	color: $text;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* helpers */
+.index {
+	color: $blue;
+}
+
+.btn-icon {
+	display: flex;
+	width: fit-content;
+}
+
+/* bootstrap overwrite */
+.btn-outline-primary {
+	color: $blue;
+	border-color: $blue;
+	border-radius: unset;
+
+	&:hover {
+		background-color: rgba($blue, .1);
+		border-color: $blue;
+		color: $blue;
+	}
+}
