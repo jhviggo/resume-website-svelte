@@ -1,11 +1,8 @@
 <script>
+	import NavigationBar from "../components/navigationBar.svelte";
 </script>
 
-<nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/settings">Settings</a>
-</nav>
+<NavigationBar />
 
 <slot></slot>
 
