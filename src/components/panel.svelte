@@ -6,9 +6,9 @@
 
 <style lang="scss">
   div {
-    background-color: $dark-blue;
+    background-color: $light-background;
     box-shadow: 4px 8px 8px rgba(0,0,0,.2);
-    width: fit-content;
-    padding: $gap;
+    border-radius: $radius;
+    overflow: hidden;
   }
 </style>
