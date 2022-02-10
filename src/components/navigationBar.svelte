@@ -1,18 +1,5 @@
 <script>
-const links = [
-  {
-    name: 'Home',
-    to: '/'
-  },
-  {
-    name: 'My CV',
-    to: '/cv'
-  },
-  {
-    name: 'Projects',
-    to: '/projects'
-  }
-];
+  export let links;
 </script>
 
 <nav>

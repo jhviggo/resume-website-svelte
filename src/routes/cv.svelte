@@ -37,7 +37,7 @@
     {
       icon: 'school',
       title: 'Education',
-      text: '**Bachelor of Software Technology Engineering**\n\n_AUG 2021 - JAN 2023_\n\nAt VIA University College, Horsens\n\nI had the following Electives:\n* Stochastic Modelling and Processing (SMP)\n* IT Security and Cryptography in Practice\n* Hardware Oriented programming\n\n___\n**AP Computer Science (Datamatiker)**\n\n_JAN 2019 - JUN 2021_\n\nI finished my AP degree at Business Academy Aarhus and had my internship and final project at Salling Group.\n___\n**High School**\n\n_AUG 2014 - JUN 2017_\n\nI went to the Danish High School HTX (Higher Technical Exams), where I focused on mathematics and programming.\n\n* Mathematics A\n* Electronics A\n* Information Technology B\n* Programming C'
+      text: '**Bachelor of Software Technology Engineering**\n\n_AUG 2021 - JAN 2023_\n\nVIA University College, Horsens.\n\nI had the following Electives:\n* Stochastic Modelling and Processing (SMP)\n* IT Security and Cryptography in Practice\n* Hardware Oriented programming\n\n___\n**AP Computer Science (Datamatiker)**\n\n_JAN 2019 - JUN 2021_\n\nI finished my AP degree at Business Academy Aarhus and had my internship and final project at Salling Group.\n___\n**High School**\n\n_AUG 2014 - JUN 2017_\n\nI went to the Danish High School HTX (Higher Technical Exams), where I focused on mathematics and programming.\n\n* Mathematics A\n* Electronics A\n* Information Technology B\n* Programming C'
     },
     {
       icon: 'code',
