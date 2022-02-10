@@ -1,28 +1,106 @@
 <script>
   export let contact, experience;
 
-  import Panel from '../components/panel.svelte';
-  import Icon from '../components/icon.svelte';
+  import Panel from './panel.svelte';
+  import Icon from './icon.svelte';
+  import SkillBar from './skillBar.svelte';
+
   import { marked } from 'marked';
+
+  const tools = [
+    {
+      skillGroup: 'expert',
+      content: 'Linux'
+    },
+    {
+      skillGroup: 'expert',
+      content: 'Git'
+    },
+    {
+      skillGroup: 'advanced',
+      content: 'Arduino/RPI'
+    },
+    {
+      skillGroup: 'intermediate',
+      content: 'Docker & Kubernetes'
+    },
+    {
+      skillGroup: 'intermediate',
+      content: 'Microsoft Azure'
+    },
+    {
+      skillGroup: 'basic',
+      content: 'Firebase'
+    }
+  ];
+
+  const languages = [
+    {
+      skillGroup: 'expert',
+      content: 'Node JS & Typescript'
+    },
+    {
+      skillGroup: 'advanced',
+      content: 'Python'
+    },
+    {
+      skillGroup: 'advanced',
+      content: 'Vue, Svelte'
+    },
+    {
+      skillGroup: 'advanced',
+      content: 'Java'
+    },
+    {
+      skillGroup: 'intermediate',
+      content: 'SQL'
+    },
+    {
+      skillGroup: 'intermediate',
+      content: 'C/C++'
+    },
+    {
+      skillGroup: 'basic',
+      content: 'FreeRTOS AVR'
+    },
+    {
+      skillGroup: 'basic',
+      content: 'Shell script'
+    },
+    {
+      skillGroup: 'basic',
+      content: 'ASM'
+    }
+  ];
 </script>
 
 <div class="container">
   <div class="row mt-3">
     <div class="col-12 col-md-4 col-lg-3 mb-3 pe-0">
+      <div class="mb-3">
+        <Panel>
+          <img class="profile" src={contact.image} alt={contact.imageAlt}/>
+          <div class="contact">
+            {#each contact.info as info}
+              <div class="p-3">
+                <Icon colorClass="blue">{info.icon}</Icon>
+              </div>
+              <div class="contact-details pt-3">
+                <span>{info.value}</span>
+                <span>{info.type}</span>
+              </div>
+            {/each}
+          </div>
+        </Panel>
+      </div>
       <Panel>
-        <img class="profile" src={contact.image} alt={contact.imageAlt}/>
-        <div class="contact">
-          {#each contact.info as info}
-            <div class="p-3">
-              <Icon colorClass="blue">{info.icon}</Icon>
-            </div>
-            <div class="contact-details pt-3">
-              <span>{info.value}</span>
-              <span>{info.type}</span>
-            </div>
-          {/each}
+        <div class="p-3">
+          <SkillBar title="Programming" skills={languages} />
+          <div class="mb-4"/>
+          <SkillBar title="Tools & Services" skills={tools} />
         </div>
       </Panel>
+      
     </div>
     <div class="col-12 col-md-8 col-lg-9 mb-3">
       {#each experience as exp}
