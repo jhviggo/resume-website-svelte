@@ -4,8 +4,6 @@
   const intro = {
     headline: 'Viggo Petersen',
     description: 'I\'m a software developer who loves learning and challenging myself, most of my days are spend reading, coding or hacking away, be it through my studies, work or spare time!',
-    portrait: '/images/headshot_outline.webp',
-    portraitAlt: 'Portrait'
   };
 
   const coreValues = [

@@ -6,15 +6,10 @@
 </script>
 
 <div class="container mb-5">
-  <div class="row pb-5 intro">
-    <div class="col col-md-6 col-lg-5 headline-container">
-      <h1 class="headline">{intro.headline}</h1>
+  <div class="row pb-5 my-5">
+    <div class="col col-md-6 col-lg-5">
+      <h1>{intro.headline}</h1>
       <p>{intro.description}</p>
-    </div>
-    <div class="col col-md-auto p-0 portrait-container">
-      <div class="portrait-frame">
-        <img class="portrait" src={intro.portrait} alt={intro.portraitAlt} />
-      </div>
     </div>
   </div>
   
@@ -42,51 +37,9 @@
 </div>
 
 <style lang="scss">
-  .intro {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    background-color: $light-background;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0 !important;
-    border-radius: $radius 0 0 $radius;
-  }
-
-  .headline-container {
-    padding-top: 1rem;
-    padding-left: 1rem;
-  }
-
   .headline {
     color: $blue;
     min-width: 225px;
-  }
-
-  @media (min-width: $md) {
-    .portrait-container {
-      background-color: $background;
-      border-radius: 50% 0 0 50%;
-      border: 5px solid $background;
-    }
-
-    .portrait-frame {
-      width: 300px;
-      height: 300px;
-      overflow: hidden;
-      background-color: $light-background;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: end;
-    }
-  }
-
-  .portrait-frame {
-    display: flex;
-    justify-content: center;
-  }
-
-  .portrait {
-    height: 250px;
   }
 
   .core-values {
