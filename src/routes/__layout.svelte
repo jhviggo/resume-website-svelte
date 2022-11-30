@@ -22,7 +22,7 @@
 			icon: 'github.svg',
 			iconAlt: 'Link to my Github page',
 			title: 'Github',
-			to: 'https://viggo.work/github.com/jhviggo/'
+			to: 'https://github.com/jhviggo'
 		},
 		{
 			icon: 'facebook.svg',

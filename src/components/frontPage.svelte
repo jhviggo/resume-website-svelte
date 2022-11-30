@@ -31,7 +31,7 @@
     <div class="col-12 col-md-7 col-lg-5">
       <p>My name is Viggo, I grew up in Denmark and started coding at a young age. I have always strived to make the world a better place by helping others through coding camps, hackathons and teaching.</p>
       <p>I am currently studying Software Technology Engineering and work for Salling Group A/S, besides that I try to attend as many events as possible. Please click the button below for an overview.</p>
-      <a class="btn btn-icon btn-outline-primary" href="/cv" role="button">Resume <i class="material-icons">chevron_right</i></a>
+      <a class="btn btn-icon btn-outline-primary mt-4" href="/cv" role="button">Resume <i class="material-icons">chevron_right</i></a>
     </div>
   </IndexHeadline>
 </div>
