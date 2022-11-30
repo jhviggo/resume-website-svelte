@@ -3,7 +3,7 @@
 
   const intro = {
     headline: 'Viggo Petersen',
-    description: 'I\'m a software developer who loves learning and challenging myself, most of my days are spend reading, coding or hacking away, be it through my studies, work or spare time!',
+    description: 'I\'m a Software Engineer who loves learning and challenging myself, most of my days are spend reading, coding or hacking away, be it through my studies, work or spare time!',
   };
 
   const coreValues = [
@@ -30,8 +30,8 @@
 
 <svelte:head>
   <meta name="keywords" content="developer,computer science,software engineering,cs,student,programmer,programming,cv" />
-  <meta name="description" content="I am a student of Software Engineering. This site is made for my online CV and a timeline of my projects." />
-  <meta name="og:description" content="I am a student of Software Engineering. This site is made for my online CV and a timeline of my projects." />
+  <meta name="description" content="I am a of Software Engineering. This site is made for my online CV and a timeline of my projects." />
+  <meta name="og:description" content="I am a of Software Engineering. This site is made for my online CV and a timeline of my projects." />
 </svelte:head>
 
 <FrontPage intro={intro} coreValues={coreValues} />
