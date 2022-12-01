@@ -5,6 +5,7 @@
 <nav>
   <div class="container">
     <div class="row">
+      <img src="/logo.png" alt="Website logo.">
       {#each links as link}
         <a class="col-auto p-3" href={link.to}>
           {link.name}
@@ -17,6 +18,15 @@
 <style lang="scss">
 nav {
   background-color: $lighter-background;
+}
+
+img {
+  max-height: 3rem;
+  width: auto;
+}
+
+.row {
+  align-items: center;
 }
 
 a {
