@@ -39,14 +39,20 @@
 	];
 </script>
 
-<NavigationBar links={links}/>
-
-<slot></slot>
-
-<Footer socials={socials}/>
+<div class="wrapper">
+	<NavigationBar links={links}/>
+	<slot></slot>
+	<Footer socials={socials}/>
+</div>
 
 <style lang="scss" global>
   @import '../../assets/global.scss';
+
+	.wrapper {
+		min-height: 100vh;
+		display: grid;
+    grid-template-rows: auto 1fr auto;
+	}
 
 	body {
 		color: $text;

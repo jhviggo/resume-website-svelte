@@ -111,7 +111,13 @@
                 <span class="me-2"><Icon colorClass="blue">{exp.icon}</Icon></span>
                 {exp.title}
               </h3>
-              {@html marked.parse(exp.text)}
+              {#await exp.text}
+                Loading...
+              {:then md} 
+                {@html marked.parse(md)}
+              {:catch}
+                ⚠️ Unable to fetch '{exp.title}'
+              {/await}
             </div>
           </Panel>
         </div>
