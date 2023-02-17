@@ -23,15 +23,17 @@
       <p class="pdf margin-0">[Has PDF]</p>
     {/if}
     <span>{text}</span>
-    <div class="tags">
-      <Pills tags={tags} />
-    </div>
+  </div>
+  <div class="tags pad-s">
+    <Pills tags={tags} />
   </div>
 </div>
 
 <style>
   .my-card {
     background-color: var(--light-background);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
   }
 
   img {

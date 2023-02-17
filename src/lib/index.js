@@ -15,11 +15,10 @@ export async function getMarkdown(name) {
 }
 
 export async function getProjects() {
-  console.log('ok');
   const response = await fetch('/api/projects.json', {
     'Content-type': 'application/json'
   });
-  console.log('still');
+
   if (!response.ok) {
     throw new Error('Unable to fetch projects.');
   }

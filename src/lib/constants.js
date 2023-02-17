@@ -19,6 +19,10 @@ const categories = {
     id: "security",
     text: "Security"
   },
+  "machine-learning": {
+    id: "machine-learning",
+    text: "ML/AI"
+  }
 }
 
 export {
