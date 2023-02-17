@@ -34,3 +34,4 @@ a:hover { text-decoration: underline; }
 .research { background-color: var(--research); }
 .code     { background-color: var(--code); }
 .security { background-color: var(--security); }
+.machine-learning { background-color: var(--machine-learning); }

@@ -29,4 +29,16 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    .projects {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .projects {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>

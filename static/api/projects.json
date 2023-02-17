@@ -6,5 +6,12 @@
     "id": "chacha20-poly1305",
     "tags": ["hardware", "code", "security"],
     "hasPdf": true
+  },
+  {
+    "banner": "https://res.cloudinary.com/jhviggo/image/upload/w_500/v1676674076/projects/ml-via/ml-via_tktywx.webp",
+    "title": "Machine Learning",
+    "text": "Machine Learning projects from my course at VIA University College. It includes Regresion, Clustering and Neural Networks",
+    "id": "machine-learning-via",
+    "tags": ["code", "machine-learning"]
   }
 ]

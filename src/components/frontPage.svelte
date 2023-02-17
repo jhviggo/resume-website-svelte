@@ -37,7 +37,7 @@
   <hr class="mb-5 mt-5">
   <IndexHeadline i={2} title="Machine Learning Projects">
     <div class="col-12 col-md-7 col-lg-5">
-      <p>Check out my Machine Learning projects from my course at VIA University College.</p>
+      <p>Through the years I've done a bunch of project both in school and in my spare time. I try to document as many of these projects as possible and post them on <a href="/projects">my projects</a> page.</p>
       <a class="btn btn-icon btn-outline-primary mt-4" href="/mal" role="button">Projects <i class="material-icons">chevron_right</i></a>
     </div>
   </IndexHeadline>
