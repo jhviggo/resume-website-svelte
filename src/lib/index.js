@@ -13,3 +13,16 @@ export async function getMarkdown(name) {
 
   return res.text();
 }
+
+export async function getProjects() {
+  console.log('ok');
+  const response = await fetch('/api/projects.json', {
+    'Content-type': 'application/json'
+  });
+  console.log('still');
+  if (!response.ok) {
+    throw new Error('Unable to fetch projects.');
+  }
+
+  return response.json();
+}

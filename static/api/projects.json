@@ -1,0 +1,10 @@
+[
+  {
+    "banner": "https://res.cloudinary.com/jhviggo/image/upload/w_500/v1676652741/projects/chacha20/esp-ssl_wtzjg4.webp",
+    "title": "IoT SSL Security",
+    "text": "Running modern Chacha20-Poly1305 encryption standard on ESP32 embedded hardware",
+    "id": "chacha20-poly1305",
+    "tags": ["hardware", "code", "security"],
+    "hasPdf": true
+  }
+]

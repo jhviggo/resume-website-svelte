@@ -1,4 +1,8 @@
-<div>
+<script>
+  export let fullHeight;
+</script>
+
+<div class:h-100={fullHeight}>
   <slot>
     This panel is empty - please add content;
   </slot>
@@ -10,5 +14,9 @@
     box-shadow: 4px 8px 8px rgba(0,0,0,.2);
     border-radius: $radius;
     overflow: hidden;
+  }
+
+  .h-100 {
+    height: 100%;
   }
 </style>

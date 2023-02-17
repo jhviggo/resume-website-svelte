@@ -3,10 +3,10 @@
 </script>
 
 <footer>
-  <div class="container py-3">
+  <div class="container py-2">
     <div class="row">
       {#each socials as social}
-        <a class="col-auto p-0 m-3" href={social.to} target="_blank">
+        <a class="col-auto p-0 mx-3" href={social.to} target="_blank">
           <img src="/images/{social.icon}" alt={social.iconAlt}/>
           {social.title}
         </a>
