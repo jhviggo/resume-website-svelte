@@ -13,5 +13,12 @@
     "text": "Machine Learning projects from my course at VIA University College. It includes Regresion, Clustering and Neural Networks",
     "id": "machine-learning-via",
     "tags": ["code", "machine-learning"]
+  },
+  {
+    "banner": "https://res.cloudinary.com/jhviggo/image/upload/w_500/v1677335230/projects/pyduino/pyduino_nwcl4d.webp",
+    "title": "Pyduino",
+    "text": "Library allowing users to control an Arduino either programatically or interactively without coding C/C++ and instead using only Python",
+    "id": "pyduino",
+    "tags": ["code", "hardware"]
   }
 ]
