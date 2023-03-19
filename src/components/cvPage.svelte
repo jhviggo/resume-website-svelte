@@ -26,10 +26,10 @@
     },
     {
       skillGroup: 'intermediate',
-      content: 'Microsoft Azure'
+      content: 'Azure/GCP/AWS'
     },
     {
-      skillGroup: 'basic',
+      skillGroup: 'intermediate',
       content: 'Firebase'
     }
   ];

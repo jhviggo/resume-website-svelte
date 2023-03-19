@@ -9,7 +9,7 @@
     info: [
       {
         icon: 'mail',
-        value: 'vig56@hotmail.com',
+        value: 'vig0142@hotmail.com',
         type: 'E-mail'
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         icon: 'today',
-        value: 'March 20th, 1997',
+        value: 'March 1997',
         type: ''
       }
     ]
