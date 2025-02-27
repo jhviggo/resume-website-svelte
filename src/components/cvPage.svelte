@@ -9,16 +9,12 @@
 
   const tools = [
     {
-      skillGroup: 'expert',
+      skillGroup: 'advanced',
       content: 'Linux'
     },
     {
-      skillGroup: 'expert',
-      content: 'Git'
-    },
-    {
       skillGroup: 'advanced',
-      content: 'Arduino/RPI'
+      content: 'Git'
     },
     {
       skillGroup: 'intermediate',
@@ -26,50 +22,46 @@
     },
     {
       skillGroup: 'intermediate',
-      content: 'Azure/GCP/AWS'
+      content: 'Cloud platforms'
     },
     {
-      skillGroup: 'intermediate',
-      content: 'Firebase'
+      skillGroup: 'learning',
+      content: 'Embedded systems'
     }
   ];
 
   const languages = [
     {
-      skillGroup: 'expert',
+      skillGroup: 'advanced',
       content: 'Node JS & Typescript'
     },
     {
-      skillGroup: 'advanced',
+      skillGroup: 'intermediate',
       content: 'Python'
     },
     {
-      skillGroup: 'advanced',
+      skillGroup: 'intermediate',
       content: 'Vue, Svelte'
     },
     {
-      skillGroup: 'advanced',
-      content: 'Java'
+      skillGroup: 'intermediate',
+      content: 'Go'
     },
     {
-      skillGroup: 'intermediate',
+      skillGroup: 'basic',
       content: 'SQL'
     },
     {
-      skillGroup: 'intermediate',
+      skillGroup: 'basic',
       content: 'C/C++'
     },
     {
-      skillGroup: 'basic',
+      skillGroup: 'learning',
       content: 'FreeRTOS AVR'
     },
     {
-      skillGroup: 'basic',
+      skillGroup: 'learning',
       content: 'Shell script'
-    },
-    {
-      skillGroup: 'basic',
-      content: 'ASM'
     }
   ];
 </script>

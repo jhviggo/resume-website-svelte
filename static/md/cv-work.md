@@ -1,6 +1,6 @@
 **Frontend Developer at Ipaper**
 
-_FEB 2023 - Current_
+_FEB 2023 - MAR 2025_
 
 I will be working on various project
 ___
