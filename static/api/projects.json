@@ -1,6 +1,6 @@
 [
   {
-    "banner": "https://res.cloudinary.com/jhviggo/image/upload/w_500/v1676652741/projects/chacha20/esp-ssl_wtzjg4.webp",
+    "banner": "/images/esp-ssl.jpg",
     "title": "IoT SSL Security",
     "text": "Running modern Chacha20-Poly1305 encryption standard on ESP32 embedded hardware",
     "id": "chacha20-poly1305",
@@ -8,17 +8,31 @@
     "hasPdf": true
   },
   {
-    "banner": "https://res.cloudinary.com/jhviggo/image/upload/w_500/v1676674076/projects/ml-via/ml-via_tktywx.webp",
+    "banner": "/images/ml-via.jpg",
     "title": "Machine Learning",
     "text": "Machine Learning projects from my course at VIA University College. It includes Regresion, Clustering and Neural Networks",
     "id": "machine-learning-via",
     "tags": ["code", "machine-learning"]
   },
   {
-    "banner": "https://res.cloudinary.com/jhviggo/image/upload/w_500/v1677335230/projects/pyduino/pyduino_nwcl4d.webp",
+    "banner": "/images/pyduino.jpg",
     "title": "Pyduino",
     "text": "Library allowing users to control an Arduino either programatically or interactively without coding C/C++ and instead using only Python",
     "id": "pyduino",
+    "tags": ["code", "hardware"]
+  },
+  {
+    "banner": "/images/drone-kit-banner.jpg",
+    "title": "Drone Stabilization Kit",
+    "text": "Hardware to track drone movments and render an accurate 3D model",
+    "id": "drone-stabilization-kit",
+    "tags": ["code", "hardware"]
+  },
+  {
+    "banner": "/images/lego-case.jpg",
+    "title": "AUHack Lego Case",
+    "text": "Aarhus University Hackathon Lego case",
+    "id": "lego-case",
     "tags": ["code", "hardware"]
   }
 ]

@@ -1,6 +1,6 @@
 # SSL encryption for Embedded devices
 
-[Read the full paper here](https://res.cloudinary.com/jhviggo/image/upload/v1676658298/projects/chacha20/viggo_SCP_iot_security_with_chacha20_poly1305_jgfvp0.pdf)
+[Read the full paper here](https://github.com/jhviggo/chacha20-poly1305/blob/master/viggo_SCP_iot_security_with_chacha20_poly1305.pdf)
 
 [Github Repository & documentation](https://github.com/jhviggo/chacha20-poly1305)
 
@@ -12,7 +12,7 @@ it encrypts data byte by byte instead of encrypting blocks of data at once. The
 central component of the algorithm is the quarter round, which is defined by
 a set of logical operators on four bytes of data as shown on the figure below.
 
-![chacha20](https://res.cloudinary.com/jhviggo/image/upload/w_500/v1676663204/projects/chacha20/chacha20_kazmtq.webp)
+![chacha20](/images/chacha20.jpg)
 
 The algorithm runs through multiple column rounds and diagonal rounds on the block constructed as the table below.
 |         |       |       |       |

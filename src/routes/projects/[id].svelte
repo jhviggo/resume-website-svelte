@@ -50,12 +50,12 @@
         <div class="article">
           {#await getMarkdown(`projects/${$page.params.id}.md`)}
             <Spinner />
-          {:then page} 
+          {:then page}
             {@html marked.parse(page)}
           {:catch}
             ⚠️ Unable to fetch project
           {/await}
-        </div>      
+        </div>
       </Panel>
     </div>
   </div>
