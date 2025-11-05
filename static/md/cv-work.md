@@ -1,18 +1,18 @@
-**Frontend Developer at Ipaper**
+**Fullstack & DevOps at Ipaper**
 
 _FEB 2023 - MAR 2025_
 
-I will be working on various project
+I worked primarely as a DevOps/SRE Engineer. I worked a lot with AWS and Kubernetes, as I was the person in charge of setting up and managing our EKS cluster and Github Actions Deployment pipeline.
 ___
  **API developer at Salling Group**
 
-_JAN 2021 - FEB 2023_
+_FEB 2021 - FEB 2023_
 
 My main responsibilities are building new APIs, working with Kubernetes infrastructure and maintain our [Developer Portal](https://developer.sallinggroup.com/).
 ___
 **Backend Developer at Salling Group**
 
-_DEC 2019 - JAN 2021_
+_JAN 2019 - JAN 2021_
 
 I moved to the backend to get experience in a different environment, I worked with Spring-boot in java, Openshift and a small amount of ReactJS.
 ___
