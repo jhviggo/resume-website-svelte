@@ -1,3 +1,9 @@
+**WebAssembly for .NET**
+
+_JUN 2023_
+
+iPaper talk by Joshua Ryder on WebAssembly for .NET using Blazor.
+___
 **AUHack**
 
 _MAR 2022_
