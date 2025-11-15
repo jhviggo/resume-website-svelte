@@ -25,12 +25,6 @@
 			to: 'https://github.com/jhviggo'
 		},
 		{
-			icon: 'facebook.svg',
-			iconAlt: 'Link to my Facebook page',
-			title: 'Facebook',
-			to: 'https://facebook.com/viggo.work'
-		},
-		{
 			icon: 'linked-in.png',
 			iconAlt: 'Link to my Linkedin page',
 			title: 'LinkedIn',
