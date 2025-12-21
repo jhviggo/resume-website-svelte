@@ -1,22 +1,22 @@
 :root {
-  --background: #1e2228;
-  --light-background: #252a33;
-  --lighter-background: #2f353f;
-  --text: #d6d6d6;
-  --accent: #2196f3;
-  --code-bg: #22272e;
+    --background: #1e2228;
+    --light-background: #252a33;
+    --lighter-background: #2f353f;
+    --text: #d6d6d6;
+    --accent: #2196f3;
+    --code-bg: #22272e;
 
-  /* colors */
-  --dark-blue: #1d2831;
-  --blue: #2196f3;
-  --green: #4caf50;
-  --yellow: #ffeb3b;
+    /* colors */
+    --dark-blue: #1d2831;
+    --blue: #2196f3;
+    --green: #4caf50;
+    --yellow: #ffeb3b;
 
-  /* categories */
-  --hardware: rgba(255, 129, 0, 0.6);
-  --devops: rgba(0, 44, 255, 0.6);
-  --research: rgba(76, 175, 80, 0.6);
-  --code: rgba(0, 211, 226, 0.6);
-  --security: rgba(200, 0, 0, 0.6);
-  --machine-learning: rgba(0, 0, 0, 0.6);
+    /* categories */
+    --hardware: rgba(255, 129, 0, 0.6);
+    --devops: rgba(0, 44, 255, 0.6);
+    --research: rgba(76, 175, 80, 0.6);
+    --code: rgba(0, 211, 226, 0.6);
+    --security: rgba(200, 0, 0, 0.6);
+    --machine-learning: rgba(0, 190, 100, 0.6);
 }

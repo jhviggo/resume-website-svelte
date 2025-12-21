@@ -8,6 +8,13 @@
     "hasPdf": true
   },
   {
+    "banner": "/images/whisper_anki.jpg",
+    "title": "Whisper AI for learning Japanese",
+    "text": "Running OpenAI's Whisper locally on CUDA for language learning, to trancribe subtitles for SRS",
+    "id": "openai-whisper-ai-anki",
+    "tags": ["machine-learning"]
+  },
+  {
     "banner": "/images/ml-via.jpg",
     "title": "Machine Learning",
     "text": "Machine Learning projects from my course at VIA University College. It includes Regresion, Clustering and Neural Networks",

@@ -1,37 +1,73 @@
 :root {
-  --s: 576px;
-  --m: 768px;
-  --l: 992px;
-  --xl: 1200px;
+    --s: 576px;
+    --m: 768px;
+    --l: 992px;
+    --xl: 1200px;
 }
 
 .round {
-  border-radius: 0.5rem;
-  overflow: hidden;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 /* links */
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
 /* Padding */
-.pad-0  { padding: 0; }
-.pad-s  { padding: 0.5rem; }
-.pad-m  { padding: 1rem; }
-.pad-l  { padding: 1.5rem; }
-.pad-xl { padding: 2rem; }
+.pad-0 {
+    padding: 0;
+}
+.pad-s {
+    padding: 0.5rem;
+}
+.pad-m {
+    padding: 1rem;
+}
+.pad-l {
+    padding: 1.5rem;
+}
+.pad-xl {
+    padding: 2rem;
+}
 
 /* Margin */
-.margin-0  { margin: 0; }
-.margin-s  { margin: 0.5rem; }
-.margin-m  { margin: 1rem; }
-.margin-l  { margin: 1.5rem; }
-.margin-xl { margin: 2rem; }
+.margin-0 {
+    margin: 0;
+}
+.margin-s {
+    margin: 0.5rem;
+}
+.margin-m {
+    margin: 1rem;
+}
+.margin-l {
+    margin: 1.5rem;
+}
+.margin-xl {
+    margin: 2rem;
+}
 
 /* Categories */
-.hardware { background-color: var(--hardware); }
-.devops   { background-color: var(--devops); }
-.research { background-color: var(--research); }
-.code     { background-color: var(--code); }
-.security { background-color: var(--security); }
-.machine-learning { background-color: var(--machine-learning); }
+.hardware {
+    background-color: var(--hardware);
+}
+.devops {
+    background-color: var(--devops);
+}
+.research {
+    background-color: var(--research);
+}
+.code {
+    background-color: var(--code);
+}
+.security {
+    background-color: var(--security);
+}
+.machine-learning {
+    background-color: var(--machine-learning);
+}

@@ -1,30 +1,28 @@
 const categories = {
   hardware: {
     id: "hardware",
-    text: "Hardware"
+    text: "Hardware",
   },
   devops: {
     id: "devops",
-    text: "DevOps"
+    text: "DevOps",
   },
   research: {
     id: "research",
-    text: "Research"
+    text: "Research",
   },
   code: {
     id: "code",
-    text: "Code"
+    text: "Code",
   },
   security: {
     id: "security",
-    text: "Security"
+    text: "Security",
   },
   "machine-learning": {
     id: "machine-learning",
-    text: "ML/AI"
-  }
-}
-
-export {
-  categories,
+    text: "ML/AI",
+  },
 };
+
+export { categories };
